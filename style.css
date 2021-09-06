@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5dd;
+  margin: 5vh;
+}
+.title, .design{
+text-align: center;
+}
+
+.flag-a-sud{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 80vh;
+}
+.card-green{
+  height: 120px;
+  width: 190px;
+  position: absolute;
+  background-color: #007a4d;
+}
+.black{
+  border-left: 75px solid #000;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  position: absolute;
+  top: 20px;
+}
+.yellow{
+  border-left: 90px solid #ffb612;
+  border-top: 48px solid transparent;
+  border-bottom: 48px solid transparent;
+  position: absolute;
+  top: 12px;
+}
+.red{
+  position: absolute;
+  transform: rotate(-180deg);
+  left: 2.2rem;
+  width: 155px;/*grande base ajustant la petite base*/
+  border-bottom: 40px solid #de3831; /*hauteur*/
+  border-right: 80px solid transparent;
+}
+.white1{
+  position: absolute;
+  transform: rotate(-180deg);
+  left: 1rem;
+  width: 174px;/*grande base ajustant la petite base*/
+  border-bottom: 49px solid #fff; /*hauteur*/
+  border-right: 96px solid transparent;
+}
+.white2{
+  position: absolute;
+  transform: rotateY(180deg);
+  bottom: 0;
+  left: 1rem;
+  width: 174px;/*grande base ajustant la petite base*/
+  border-bottom: 49px solid #fff; /*hauteur*/
+  border-right: 96px solid transparent;
+}
+.blue{
+  position: absolute;
+  transform: rotateY(180deg);
+  bottom: 0; 
+  left: 2.2rem;
+  width: 155px;/*grande base ajustant la petite base*/
+  border-bottom: 40px solid #002395; /*hauteur*/
+  border-right: 80px solid transparent;
+ }
+.design a{
+  text-decoration: none;
+  font-weight: 900;
+  letter-spacing: .1rem;
+}
+.design a:hover{
+  background-color: #3636AF;
+  color: white;
+  transition: all 1.2s;
+}
